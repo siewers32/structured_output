@@ -1,0 +1,6 @@
+services:
+  devcontainer:
+    build: .
+    tty: true
+    volumes:
+      - ./app:/home/appuser/app
